@@ -18,7 +18,7 @@ const path = { // Пути файлов
         // Пути до исходников
         html: [`src/**/*{html,php,pug}`, `!src/assets/**/*{html,pug}`],
         js: [`src/assets/js/*.js`],
-        css: [`src/assets/sass/style.{scss,sass}`],
+        css: [`src/assets/sass/*.{scss,sass}`],
         images: [`src/assets/img/**/*.{jpg,png,svg,gif,ico,webp,jpeg}`],
         fonts: [`src/assets/fonts/**/*.*`],
         data: [`src/**/*.{${ otherFilesExtnames.join(`,`) }}`, `!src/img/**/*.*`]
